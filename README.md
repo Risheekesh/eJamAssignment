@@ -7,7 +7,11 @@ Steps to run the application:
       `npm run build` to optimized production build
 
 2. Backend Application:
-     First go to server directory using `cd ./server` and then run `npm i`;
+
+     First go to server directory using `cd ./server` and then run `npm i`
+     
+     
+     Open config/development.json and add DB details
      
      After then run `npm start` to run application server and default port is 4041
 
