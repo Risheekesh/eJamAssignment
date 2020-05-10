@@ -1,0 +1,14 @@
+{
+    "env": "development",
+    "port": 4000,
+    "database_mongodb": {
+        "host": "<host>",
+        "port": "<post>",
+        "username": "<username>",
+        "password": "<password>",
+        "dbName": "<dn_name>"
+    },
+    "base_url" : "http://localhost:4041"
+}
+
+
