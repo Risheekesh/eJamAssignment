@@ -2,26 +2,11 @@
 const deploymentStore = (state = [], action: any) => {
     switch (action.type) {
         case 'ADD_DEPLOYMENT':
-            return [
-                ...state,
-                {
-                    id: action.id,
-                    text: action.text,
-                    completed: false
-                }
-            ]
+            return state;
         case 'LIST_DEPLOYMENT':
-            return state.map((todo: any) =>
-                (todo.id === action.id)
-                    ? { ...todo, completed: !todo.completed }
-                    : todo
-            )
+            return state;
         case 'DELETE_DEPLOYMENT':
-            return state.map((todo: any) =>
-                (todo.id === action.id)
-                    ? { ...todo, completed: !todo.completed }
-                    : todo
-            )
+            return StaticRange;
         default:
             return state
     }
